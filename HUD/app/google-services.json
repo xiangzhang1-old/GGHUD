@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "87644386209",
+    "firebase_url": "https://hudfirebaseproject-5b25e.firebaseio.com",
+    "project_id": "hudfirebaseproject-5b25e",
+    "storage_bucket": "hudfirebaseproject-5b25e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87644386209:android:cb578a1894e95be5",
+        "android_client_info": {
+          "package_name": "com.example.hud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87644386209-dcv864nncil5pv48fcloua5g5i1e8kn6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hud",
+            "certificate_hash": "ad8243f45f82f3038017ccecf9b33b7e691630ee"
+          }
+        },
+        {
+          "client_id": "87644386209-nlrgq72d3hoaojqef3vb3sbdo0jri653.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1oaO5yRYo8CjsnF9u7akqkI7KBefn3A0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87644386209-nlrgq72d3hoaojqef3vb3sbdo0jri653.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

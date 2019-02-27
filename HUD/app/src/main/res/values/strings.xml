@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HUD</string>
+    <string name="title_activity_main">Heads-up display</string>
+    <string name="glass_voice_trigger">heads up</string>
+    <string name="add_a_card">add</string>
+    <string name="remove_card">remove</string>
+</resources>
