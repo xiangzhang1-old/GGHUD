@@ -4,4 +4,5 @@
     <string name="glass_voice_trigger">heads up</string>
     <string name="add_a_card">add</string>
     <string name="remove_card">remove</string>
+    <string name="wifi_settings">wifi settings</string>
 </resources>

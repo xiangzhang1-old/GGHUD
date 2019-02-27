@@ -14,6 +14,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.speech.RecognizerIntent;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -34,7 +35,6 @@ Customization:
 public class MainActivity extends Activity {
     private static final int ADDCARD_SPEECH_REQUEST = 135;
 
-    private View mView;
     private MCards mCards;
 
     @Override
@@ -83,6 +83,9 @@ public class MainActivity extends Activity {
                     break;
                 case R.id.remove_card:
                     mCards.removeCard();
+                    break;
+                case R.id.wifi_settings:
+                    startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS));
                     break;
                 default:
                     return true;

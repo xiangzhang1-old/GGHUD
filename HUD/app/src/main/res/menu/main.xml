@@ -6,4 +6,7 @@
     <item
         android:id="@+id/remove_card"
         android:title="@string/remove_card" />
+    <item
+        android:id="@+id/wifi_settings"
+        android:title="@string/wifi_settings" />
 </menu>
