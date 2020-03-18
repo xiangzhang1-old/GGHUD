@@ -215,7 +215,7 @@ class MCards {
             }
         });
 
-        substitutionHashMapRef = new Firebase("https://hudfirebaseproject-5b25e-d409d.firebaseio.com/").child("substitutionHashMapRef");
+        substitutionHashMapRef = new Firebase("https://hudfirebaseproject-5b25e-d409d.firebaseio.com/").child("substitutionHashMap");
         substitutionHashMapRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
